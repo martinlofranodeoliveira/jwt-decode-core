@@ -1,0 +1,14 @@
+{
+  "name": "jwt-decode-core",
+  "version": "0.1.0",
+  "description": "JWT decoding without verification: header/payload parse, signature presence, caller-clock expiry. Zero runtime dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/jwt.test.js",
+    "demo": "node bin/jwt.mjs --assert"
+  }
+}
